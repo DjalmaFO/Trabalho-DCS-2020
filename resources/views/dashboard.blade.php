@@ -8,7 +8,7 @@
     <div class="py-12 container">
         <div class="row">
             <div class="col-4">
-                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 70vh">
+                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 60vh">
                     <img class="card-img-top" src="{{ asset('img/covid-19.jpg') }}" alt="Uso de mascara">
                     <div class="card-body">
                         <h2 class="card-title h5 italic font-weight-bold">Política de Segurança COVID-19</h5>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 70vh">
+                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 60vh">
                     <img class="card-img-top" src="{{ asset('img/brinquedoteca.jpg') }}" alt="brinquedoteca">
                     <div class="card-body">
                         <h2 class="card-title h5 italic font-weight-bold">Controle de fluxo a brinquedoteca</h5>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 70vh">
+                <div class="card rounded-3 shadow-lg justify-center" style="width: 24rem; height: 60vh">
                     <img class="card-img-top" src="{{ asset('img/churrasqueira.jpg') }}" alt="churrasqueira">
                     <div class="card-body">
                         <h2 class="card-title h5 italic font-weight-bold">Reabertura das áreas gourmet</h5>
@@ -48,4 +48,9 @@
             </div>
         </div>
     </div>
+    <x-slot name="footer">
+        <div class="row justify-center">
+            <h4 class="h6">TSI - 4º Periodo, Trabalho DCS: Login Laravel Socialite com Multiplos Providers &copy;</h4>
+        </div>
+    </x-slot>
 </x-app-layout>
